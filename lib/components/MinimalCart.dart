@@ -24,7 +24,6 @@ class MinimalCart extends StatelessWidget {
             _scrollController.jumpTo(_scrollController.position.maxScrollExtent);
           }catch(e){
             //TODO fix
-            print("err");
           }
           return content;
         }
