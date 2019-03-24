@@ -36,7 +36,7 @@ class _ProductView extends State<ProductView> {
     return new Scaffold(backgroundColor: Colors.white, appBar: new AppBar(backgroundColor: Colors.white, elevation: 0, iconTheme: IconThemeData(color: Colors.black)), body:
         new SafeArea(child:
           new Column(children: <Widget>[
-            new Container(padding: EdgeInsets.symmetric(horizontal: 20), height: MediaQuery.of(context).size.height*0.75, child:
+            new Container(padding: EdgeInsets.symmetric(horizontal: 20), height: MediaQuery.of(context).size.height*0.73, child:
               new SingleChildScrollView(child:
                 new Column(crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
                   new Center(child:

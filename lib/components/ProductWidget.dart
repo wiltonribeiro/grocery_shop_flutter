@@ -25,7 +25,7 @@ class ProductWidget extends StatelessWidget {
               new Container(height: height * 0.25, margin: EdgeInsets.only(top: 10), child:
                 new Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
                   new Text("\$${this.product.price}", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black, fontSize: fontSize)),
-                  new Container(margin: EdgeInsets.only(top: 20, bottom: 10), child: new Text("${this.product.title}", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black, fontSize: fontSize * 0.72))),
+                  new Container(margin: EdgeInsets.only(top: 20, bottom: 10), child: new Text("${this.product.title}", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black, fontSize: fontSize * 0.65))),
                   new Text("${this.product.weight}g", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey, fontSize: fontSize * 0.48))
                 ])
               )
